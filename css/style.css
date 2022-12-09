@@ -554,10 +554,10 @@ a:focus {
 .appoinment-content .emergency {
   position: absolute;
   content: "";
-  right: 10px;
-  bottom: 20px;
+  right:70px;
+  bottom:-83px;
   background: #223a66;
-  padding: 48px;
+  padding:8px;
 }
 
 .appoinment-content .emergency h2 {

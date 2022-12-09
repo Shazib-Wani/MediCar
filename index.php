@@ -8,6 +8,8 @@
   <title>MediCab</title>
   <script src="https://kit.fontawesome.com/8c95792014.js" crossorigin="anonymous"></script>
 
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
   <!-- Icon Font Css -->
@@ -232,7 +234,7 @@
 		<div class="row align-items-center">
 			<div class="col-lg-6 ">
 				<div class="appoinment-content">
-					<img src="images/about/" alt="" class="img-fluid">
+					<img src="images/appointment.png" alt="" class="img-fluid">
 					<div class="emergency">
 						<h2 class="text-lg"><i class="icofont-phone-circle text-lg"></i>+916005833691</h2>
 					</div>
@@ -301,7 +303,7 @@
                         </div>
                     </div>
                     <div class="form-group-2 mb-4">
-                        <textarea name="message" id="message" class="form-control" rows="3" columns='9' placeholder="Your Message"></textarea>
+                        <textarea name="message" id="message" class="form-control" rows="3" placeholder="Your Message"></textarea>
                     </div>
 
                     <a class="btn btn-main btn-round-full" href="appoinment.html" >Make Appoinment <i class="icofont-simple-right ml-2  "></i></a>
