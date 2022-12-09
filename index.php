@@ -92,7 +92,7 @@
 					
 					<p class="mb-4 pr-5">We are here to ensure that you get the medical attention on time and not a single minute is wasted in getting you to the nearest hospital.</p>
 					<div class="btn-container ">
-						<a href="appoinment.html" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Make appoinment <i class="icofont-simple-right ml-2  "></i></a>
+						<a href="appoinment.php" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Make appoinment <i class="icofont-simple-right ml-2  "></i></a>
 					</div>
 				</div>
 			</div>
@@ -111,6 +111,7 @@
 						<span>24 Hours Service</span>
 						<h3 class="mb-3">Fully Equipped Ambulance</h3>
 						<p><strong>Get a Fully Equiped Ambulance from your nearest hospital in the shortest time.</strong></p>
+						<a href="appoinment.php" class="btn btn-main btn-round-full">Book a Ride</a>
 						<a href="maps.php" class="btn btn-main btn-round-full">Book a Ride</a>
 					</div>
 					
@@ -121,7 +122,7 @@
 						<span>24 Hours Service</span>
 						<h3 class="mb-3">Semi Equipped Ambulance</h3>
 						<p><strong>Get a semi equipped ambulance fit for providing the essentials until you reach the hospital.</strong></p>
-						<a href="appoinment.html" class="btn btn-main btn-round-full">Book a Ride</a>
+						<a href="appoinment.php" class="btn btn-main btn-round-full">Book a Ride</a>
 					</div>
 							
 					<div class="feature-item mb-5 mb-lg-0">
@@ -131,7 +132,7 @@
 						<span>24 Hours Service</span>
 						<h3 class="mb-3">Taxi/Auto</h3>
 						<p><strong>Get a cab/taxi to the hospital for general checkups or any other needs from our partner drivers.</strong></p>
-						<a href="appoinment.html" class="btn btn-main btn-round-full">Book a Ride </a>
+						<a href="appoinment.php" class="btn btn-main btn-round-full">Book a Ride </a>
 					</div>
 												
                 </div>
