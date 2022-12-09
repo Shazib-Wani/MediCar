@@ -81,6 +81,7 @@
 	</nav>
 </header>
 
+
 <!-- Slider Start -->
 <section class="banner">
 	<div class="container">
