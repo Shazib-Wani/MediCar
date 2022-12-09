@@ -51,6 +51,6 @@ marker = new google.maps.Marker({ map:map, position: addressMarker });
 </head> 
 <body onload="initialize()"> 
 <!-- <h2>Map Example</h2>  -->
-<div id="map_canvas"></div> 
+<div length='100px' weidth='100px' id="map_canvas"></div> 
 </body> 
 </html> 

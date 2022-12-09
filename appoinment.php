@@ -113,7 +113,7 @@
                             </div>
                         </div>
                     </div>
-					<a class="btn btn-main btn-round-full" href=>Get Location<i class="icofont-simple-right ml-2"></i></a>
+					<a class="btn btn-main btn-round-full" href="maps.php">Get Location<i class="icofont-simple-right ml-2"></i></a>
 </t>
 
                     <a class="btn btn-main btn-round-full" href="confirmation.html">Book Now<i class="icofont-simple-right ml-2"></i></a>

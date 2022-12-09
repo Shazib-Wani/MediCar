@@ -243,7 +243,7 @@
 				<div class="appoinment-wrap mt-5 mt-lg-0">
 					<h2 class="mb-2 title-color">Book an appoinment</h2>
 					<p class="mb-4">You can now arrange an appointment at one of our partner hospitals using Ambucar without needing to visit the hospital.</p>
-					     <form id="#" class="appoinment-form" method="post" action="bk.php">
+					     <form class="appoinment-form" method="post" action="bk.php">
                     <div class="row">
                          <div class="col-lg-6">
                             <div class="form-group">
