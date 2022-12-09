@@ -2,13 +2,11 @@
 <html lang="zxx">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="description" content="Orbitor,business,company,agency,modern,bootstrap4,tech,software">
-  <meta name="author" content="themefisher.com">
+  <meta name="description" content="Hackathon">
+  <meta name="author" content="wanis">
 
   <title>MediCab</title>
-
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+  <script src="https://kit.fontawesome.com/8c95792014.js" crossorigin="anonymous"></script>
 
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
@@ -49,7 +47,7 @@
 	<nav class="navbar navbar-expand-lg navigation" id="navbar">
 		<div class="container">
 		 	 <a class="navbar-brand" href="index.html">
-			  	<img src="images/logo.png" alt="" class="img-fluid">
+			  	<img src="images/medicab.png" alt="" class="img-fluid">
 			  </a>
 
 		  	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
@@ -108,40 +106,32 @@
 				<div class="feature-block d-lg-flex">
 					<div class="feature-item mb-5 mb-lg-0">
 						<div class="feature-icon mb-4">
-							<i class="icofont-surgeon-alt"></i>
+						<i class="fa fa-ambulance" aria-hidden="true"></i>
 						</div>
 						<span>24 Hours Service</span>
-						<h4 class="mb-3">Online Booking</h4>
-						<p class="mb-4">Get a Fully Equiped Ambulance from your nearest hospital in the shortest time.</p>
-						<a href="appoinment.html" class="btn btn-main btn-round-full">Book An Ambulance</a>
+						<h3 class="mb-3">Fully Equipped Ambulance</h3>
+						<p><strong>Get a Fully Equiped Ambulance from your nearest hospital in the shortest time.</strong></p>
+						<a href="appoinment.html" class="btn btn-main btn-round-full">Book a Ride</a>
 					</div>
-
-					<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="feature-block d-lg-flex">
+					
 					<div class="feature-item mb-5 mb-lg-0">
 						<div class="feature-icon mb-4">
 							<i class="icofont-surgeon-alt"></i>
 						</div>
 						<span>24 Hours Service</span>
-						<h4 class="mb-3">Online Booking</h4>
-						<p class="mb-4">Get a semi-equipped ambulance in the shortest duration possible.</p>
-						<a href="appoinment.html" class="btn btn-main btn-round-full">Book An Ambulance</a>
+						<h3 class="mb-3">Semi Equipped Ambulance</h3>
+						<p><strong>Get a semi equipped ambulance fit for providing the essentials until you reach the hospital.</strong></p>
+						<a href="appoinment.html" class="btn btn-main btn-round-full">Book a Ride</a>
 					</div>
-
-					<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="feature-block d-lg-flex">
+							
 					<div class="feature-item mb-5 mb-lg-0">
 						<div class="feature-icon mb-4">
 							<i class="icofont-surgeon-alt"></i>
 						</div>
 						<span>24 Hours Service</span>
-						<h4 class="mb-3">Online Booking</h4>
-						<p class="mb-4">Get a cab/taxi to the hospital for less severe </p>
-						<a href="appoinment.html" class="btn btn-main btn-round-full">Book An Ambulance</a>
+						<h3 class="mb-3">Taxi/Auto</h3>
+						<p><strong>Get a cab/taxi to the hospital for general checkups or any other needs from our partner drivers.</strong></p>
+						<a href="appoinment.html" class="btn btn-main btn-round-full">Book a Ride </a>
 					</div>
 												
                 </div>
@@ -151,25 +141,6 @@
 </section>
 
 <!-- About Stats -->
-
-<section class="section about">
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-4 col-sm-6">
-				<div class="about-img">
-					<img src="images/about/img-1.jpg" alt="" class="img-fluid">
-					<img src="images/about/img-2.jpg" alt="" class="img-fluid mt-4">
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-6">
-				<div class="about-img mt-4 mt-lg-0">
-					<img src="images/about/img-3.jpg" alt="" class="img-fluid">
-				</div>
-			</div>
-			
-		</div>
-	</div>
-</section>
 <section class="cta-section ">
 	<div class="container">
 		<div class="cta position-relative">
@@ -426,7 +397,7 @@
 			<div class="col-lg-4 mr-auto col-sm-6">
 				<div class="widget mb-5 mb-lg-0">
 					<div class="logo mb-4">
-						<img src="images/logo.png" alt="" class="img-fluid">
+						<img src="images/medicab.png" alt="" class="img-fluid">
 					</div>
 						<ul class="list-inline footer-socials mt-4">
 						<li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="icofont-facebook"></i></a></li>
@@ -436,7 +407,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-2 col-md-6 col-sm-6">
+			<div class="col-lg-2 col-md-6 col-sm-6 align=center" >
 				<div class="widget mb-5 mb-lg-0">
 					<h4 class="text-capitalize mb-3">Support</h4>
 					<div class="divider mb-4"></div>
@@ -502,28 +473,3 @@
 	</div>
 </footer>
 
-<!--Essentials-->
-
-    
-    <!-- Main jQuery -->
-    <script src="plugins/jquery/jquery.js"></script>
-    <!-- Bootstrap 4.3.2 -->
-    <script src="plugins/bootstrap/js/popper.js"></script>
-    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="plugins/counterup/jquery.easing.js"></script>
-    <!-- Slick Slider -->
-    <script src="plugins/slick-carousel/slick/slick.min.js"></script>
-    <!-- Counterup -->
-    <script src="plugins/counterup/jquery.waypoints.min.js"></script>
-    
-    <script src="plugins/shuffle/shuffle.min.js"></script>
-    <script src="plugins/counterup/jquery.counterup.min.js"></script>
-    <!-- Google Map -->
-    <script src="plugins/google-map/map.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
-    
-    <script src="js/script.js"></script>
-    <script src="js/contact.js"></script>
-
-  </body>
-  </html>
