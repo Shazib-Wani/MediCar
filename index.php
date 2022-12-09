@@ -112,12 +112,12 @@
 						<h3 class="mb-3">Fully Equipped Ambulance</h3>
 						<p><strong>Get a Fully Equiped Ambulance from your nearest hospital in the shortest time.</strong></p>
 						<a href="appoinment.php" class="btn btn-main btn-round-full">Book a Ride</a>
-						<a href="maps.php" class="btn btn-main btn-round-full">Book a Ride</a>
+						
 					</div>
 					
 					<div class="feature-item mb-5 mb-lg-0">
 						<div class="feature-icon mb-4">
-							<i class="icofont-surgeon-alt"></i>
+						<i class="fa fa-ambulance" aria-hidden="true"></i>
 						</div>
 						<span>24 Hours Service</span>
 						<h3 class="mb-3">Semi Equipped Ambulance</h3>
@@ -127,11 +127,11 @@
 							
 					<div class="feature-item mb-5 mb-lg-0">
 						<div class="feature-icon mb-4">
-							<i class="icofont-surgeon-alt"></i>
+						<i class="fa fa-ambulance" aria-hidden="true"></i>
 						</div>
 						<span>24 Hours Service</span>
-						<h3 class="mb-3">Taxi/Auto</h3>
-						<p><strong>Get a cab/taxi to the hospital for general checkups or any other needs from our partner drivers.</strong></p>
+						<h3 class="mb-3">Book Any</h3>
+						<p><strong>Book any one of the Fully equiped or semi equiped ambulances from the fleet of our partner hospitals in the shortest time.</strong></p>
 						<a href="appoinment.php" class="btn btn-main btn-round-full">Book a Ride </a>
 					</div>
 												
@@ -188,7 +188,7 @@
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-item mb-4">
 					<div class="icon d-flex align-items-center">
-						<i class="icofont-laboratory text-lg"></i>
+					    <i class="fa-solid fa-truck-medical"></i>
 						<h4 class="mt-3 mb-3">Fully Equiped Ambulance</h4>
 					</div>
 
@@ -201,11 +201,11 @@
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-item mb-4">
 					<div class="icon d-flex align-items-center">
-						<i class="icofont-heart-beat-alt text-lg"></i>
-						<h4 class="mt-3 mb-3">Semi Equipped Ambulance</h4>
+					    <i class="fa-solid fa-truck-medical"></i>
+						<h4 class="mt-3 mb-3">Semi Equipped</h4>
 					</div>
 					<div class="content">
-						<p class="mb-4">A small semi equipped ambulance with basic necessities to get the patient to the nearest hospital.</p>
+						<p class="mb-4">A small semi equipped ambulance with basic necessities to get the patient to the nearest hospital in the shortest time possible.</p>
 					</div>
 				</div>
 			</div>
@@ -213,11 +213,12 @@
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-item mb-4">
 					<div class="icon d-flex align-items-center">
-						<i class="icofont-tooth text-lg"></i>
-						<h4 class="mt-3 mb-3">Cab/Taxi</h4>
+					    <i class="fa-solid fa-calendar-check"></i>
+						<h4 class="mt-3 mb-3">Appointment Booking</h4>
+						
 					</div>
 					<div class="content">
-						<p class="mb-4">A normal cab/taxi ready to take a patient to the hospital for an appointment or other services.</p>
+						<p class="mb-4">Now you can book an appointment to one of our partner hospitals without having to visit or calling the hospitals in a hassle free way.</p></p>
 					</div>
 				</div>
 			</div>
