@@ -92,7 +92,7 @@
 					
 					<p class="mb-4 pr-5">We are here to ensure that you get the medical attention on time and not a single minute is wasted in getting you to the nearest hospital.</p>
 					<div class="btn-container ">
-						<a href="appoinment.html" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Make appoinment <i class="icofont-simple-right ml-2  "></i></a>
+						<a href="appoinment.php" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Book An Ambulance <i class="icofont-simple-right ml-2  "></i></a>
 					</div>
 				</div>
 			</div>
@@ -111,7 +111,7 @@
 						<span>24 Hours Service</span>
 						<h3 class="mb-3">Fully Equipped Ambulance</h3>
 						<p><strong>Get a Fully Equiped Ambulance from your nearest hospital in the shortest time.</strong></p>
-						<a href="appoinment.html" class="btn btn-main btn-round-full">Book a Ride</a>
+						<a href="appoinment.php" class="btn btn-main btn-round-full">Book a Ride</a>
 					</div>
 					
 					<div class="feature-item mb-5 mb-lg-0">
@@ -121,7 +121,7 @@
 						<span>24 Hours Service</span>
 						<h3 class="mb-3">Semi Equipped Ambulance</h3>
 						<p><strong>Get a semi equipped ambulance fit for providing the essentials until you reach the hospital.</strong></p>
-						<a href="appoinment.html" class="btn btn-main btn-round-full">Book a Ride</a>
+						<a href="appoinment.php" class="btn btn-main btn-round-full">Book a Ride</a>
 					</div>
 							
 					<div class="feature-item mb-5 mb-lg-0">
@@ -131,7 +131,7 @@
 						<span>24 Hours Service</span>
 						<h3 class="mb-3">Taxi/Auto</h3>
 						<p><strong>Get a cab/taxi to the hospital for general checkups or any other needs from our partner drivers.</strong></p>
-						<a href="appoinment.html" class="btn btn-main btn-round-full">Book a Ride </a>
+						<a href="appoinment.php" class="btn btn-main btn-round-full">Book a Ride </a>
 					</div>
 												
                 </div>
@@ -276,15 +276,8 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="form-group">
-                                <select class="form-control" id="exampleFormControlSelect2">
-                                  <option>Select Doctors</option>
-                                </select>
-                            </div>
-                        </div>
 
-                         <div class="col-lg-6">
+                        <div class="col-lg-6">
                             <div class="form-group">
                                 <input name="date" id="date" type="text" class="form-control" placeholder="dd/mm/yyyy">
                             </div>
@@ -308,12 +301,11 @@
                         </div>
                     </div>
                     <div class="form-group-2 mb-4">
-                        <textarea name="message" id="message" class="form-control" rows="6" placeholder="Your Message"></textarea>
+                        <textarea name="message" id="message" class="form-control" rows="3" columns='9' placeholder="Your Message"></textarea>
                     </div>
 
                     <a class="btn btn-main btn-round-full" href="appoinment.html" >Make Appoinment <i class="icofont-simple-right ml-2  "></i></a>
                 </form>
-            </div>
 			</div>
 		</div>
 	</div>
@@ -473,3 +465,30 @@
 	</div>
 </footer>
 
+ <!-- 
+    Essential Scripts
+    =====================================-->
+
+    
+    <!-- Main jQuery -->
+    <script src="plugins/jquery/jquery.js"></script>
+    <!-- Bootstrap 4.3.2 -->
+    <script src="plugins/bootstrap/js/popper.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/counterup/jquery.easing.js"></script>
+    <!-- Slick Slider -->
+    <script src="plugins/slick-carousel/slick/slick.min.js"></script>
+    <!-- Counterup -->
+    <script src="plugins/counterup/jquery.waypoints.min.js"></script>
+    
+    <script src="plugins/shuffle/shuffle.min.js"></script>
+    <script src="plugins/counterup/jquery.counterup.min.js"></script>
+    <!-- Google Map -->
+    <script src="plugins/google-map/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
+    
+    <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
+
+  </body>
+  </html>
