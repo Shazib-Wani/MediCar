@@ -281,6 +281,14 @@
                             <div class="form-group">
                                 <select name="doc" class="form-control" id="exampleFormControlSelect2">
                                   <option>Select Doctors</option>
+								  <option>Dr Sri Ram</option>
+                                  <option>Dr Tarif Mehraj</option>
+                                  <option>Dr Shoaib Mirza</option>
+                                  <option>Dr Kanwaljeet Singh</option>
+                                  <option>Dr Shreyas</option>
+                                  <option>Dr Padma Shree</option>
+								  <option>Dr Kaur</option>
+								  <option>Dr John</option>
                                 </select>
                             </div>
                         </div>
