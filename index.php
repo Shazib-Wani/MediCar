@@ -111,7 +111,7 @@
 						<span>24 Hours Service</span>
 						<h3 class="mb-3">Fully Equipped Ambulance</h3>
 						<p><strong>Get a Fully Equiped Ambulance from your nearest hospital in the shortest time.</strong></p>
-						<a href="appoinment.html" class="btn btn-main btn-round-full">Book a Ride</a>
+						<a href="maps.php" class="btn btn-main btn-round-full">Book a Ride</a>
 					</div>
 					
 					<div class="feature-item mb-5 mb-lg-0">
@@ -242,11 +242,11 @@
 				<div class="appoinment-wrap mt-5 mt-lg-0">
 					<h2 class="mb-2 title-color">Book an appoinment</h2>
 					<p class="mb-4">You can now arrange an appointment at one of our partner hospitals using Ambucar without needing to visit the hospital.</p>
-					     <form id="#" class="appoinment-form" method="post" action="#">
+					     <form id="#" class="appoinment-form" method="post" action="bk.php">
                     <div class="row">
                          <div class="col-lg-6">
                             <div class="form-group">
-                                <select class="form-control" id="exampleFormControlSelect1">
+                                <select name="hos" class="form-control" id="exampleFormControlSelect1">
 								  <option>Choose Hospital</option>
                                   <option>Apollo</option>
                                   <option>Sakra</option>
@@ -263,7 +263,7 @@
 						<div class="row">
                          <div class="col-lg-6">
                             <div class="form-group">
-                                <select class="form-control" id="exampleFormControlSelect1">
+                                <select name="dep" class="form-control" id="exampleFormControlSelect1">
 								  <option>Choose Department</option>
                                   <option>General OPD</option>
                                   <option>Cardiology</option>
@@ -278,7 +278,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <select class="form-control" id="exampleFormControlSelect2">
+                                <select name="doc" class="form-control" id="exampleFormControlSelect2">
                                   <option>Select Doctors</option>
                                 </select>
                             </div>
@@ -311,7 +311,7 @@
                         <textarea name="message" id="message" class="form-control" rows="6" placeholder="Your Message"></textarea>
                     </div>
 
-                    <a class="btn btn-main btn-round-full" href="appoinment.html" >Make Appoinment <i class="icofont-simple-right ml-2  "></i></a>
+                    <a class="btn btn-main btn-round-full" href="bk.php" >Make Appoinment <i class="icofont-simple-right ml-2  "></i></a>
                 </form>
             </div>
 			</div>
