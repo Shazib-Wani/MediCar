@@ -29,13 +29,13 @@
 			<div class="row align-items-center">
 				<div class="col-lg-6">
 					<ul class="top-bar-info list-inline-item pl-0 mb-0">
-						<li class="list-inline-item"><a href="mailto:support@gmail.com"><i class="icofont-support-faq mr-2"></i>wanishazib@gmail.com</a></li>
+						<li class="list-inline-item"><a href="wanishazib@gmail.com"><i class="icofont-support-faq mr-2"></i>wanishazib@gmail.com</a></li>
 						<li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Bengaluru,Karnataka</li>
 					</ul>
 				</div>
 				<div class="col-lg-6">
 					<div class="text-lg-right top-right-bar mt-2 mt-lg-0">
-						<a href="tel:+23-345-67890" >
+						<a href="tel:+916005833691" >
 							<span>Call Now : </span>
 							<span class="h4">+916005833691</span>
 						</a>
@@ -106,7 +106,7 @@
 				<div class="feature-block d-lg-flex">
 					<div class="feature-item mb-5 mb-lg-0">
 						<div class="feature-icon mb-4">
-						<i class="fa fa-ambulance" aria-hidden="true"></i>
+						<i class="fa-solid fa-truck-medical"></i>
 						</div>
 						<span>24 Hours Service</span>
 						<h3 class="mb-3">Fully Equipped Ambulance</h3>
@@ -116,7 +116,7 @@
 					
 					<div class="feature-item mb-5 mb-lg-0">
 						<div class="feature-icon mb-4">
-							<i class="icofont-surgeon-alt"></i>
+						<i class="fa-solid fa-truck-medical"></i>
 						</div>
 						<span>24 Hours Service</span>
 						<h3 class="mb-3">Semi Equipped Ambulance</h3>
@@ -187,7 +187,7 @@
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-item mb-4">
 					<div class="icon d-flex align-items-center">
-						<i class="icofont-laboratory text-lg"></i>
+					<i class="fa-solid fa-truck-medical"></i>
 						<h4 class="mt-3 mb-3">Fully Equiped Ambulance</h4>
 					</div>
 
@@ -200,7 +200,7 @@
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-item mb-4">
 					<div class="icon d-flex align-items-center">
-						<i class="icofont-heart-beat-alt text-lg"></i>
+					<i class="fa-solid fa-light-emergency-on"></i>
 						<h4 class="mt-3 mb-3">Semi Equipped Ambulance</h4>
 					</div>
 					<div class="content">
@@ -212,7 +212,7 @@
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-item mb-4">
 					<div class="icon d-flex align-items-center">
-						<i class="icofont-tooth text-lg"></i>
+					<i class="fa-solid fa-taxi"></i>
 						<h4 class="mt-3 mb-3">Cab/Taxi</h4>
 					</div>
 					<div class="content">
@@ -232,7 +232,7 @@
 		<div class="row align-items-center">
 			<div class="col-lg-6 ">
 				<div class="appoinment-content">
-					<img src="images/about/img-3.jpg" alt="" class="img-fluid">
+					<img src="images/about/" alt="" class="img-fluid">
 					<div class="emergency">
 						<h2 class="text-lg"><i class="icofont-phone-circle text-lg"></i>+916005833691</h2>
 					</div>
@@ -338,52 +338,52 @@
 		<div class="row clients-logo">
 			<div class="col-lg-2">
 				<div class="client-thumb">
-					<img src="images/about/1.png" alt="" class="img-fluid">
+					<img src="images/.png" alt="" class="img-fluid">
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="client-thumb">
-					<img src="images/about/2.png" alt="" class="img-fluid">
+					<img src="images/" alt="" class="img-fluid">
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="client-thumb">
-					<img src="images/about/3.png" alt="" class="img-fluid">
+					<img src="images/" alt="" class="img-fluid">
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="client-thumb">
-					<img src="images/about/4.png" alt="" class="img-fluid">
+					<img src="images/" alt="" class="img-fluid">
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="client-thumb">
-					<img src="images/about/5.png" alt="" class="img-fluid">
+					<img src="images/" alt="" class="img-fluid">
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="client-thumb">
-					<img src="images/about/6.png" alt="" class="img-fluid">
+					<img src="images/" alt="" class="img-fluid">
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="client-thumb">
-					<img src="images/about/3.png" alt="" class="img-fluid">
+					<img src="images/" alt="" class="img-fluid">
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="client-thumb">
-					<img src="images/about/4.png" alt="" class="img-fluid">
+					<img src="images/" alt="" class="img-fluid">
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="client-thumb">
-					<img src="images/about/5.png" alt="" class="img-fluid">
+					<img src="images/" alt="" class="img-fluid">
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="client-thumb">
-					<img src="images/about/6.png" alt="" class="img-fluid">
+					<img src="images/" alt="" class="img-fluid">
 				</div>
 			</div>
 		</div>
