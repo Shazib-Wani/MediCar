@@ -1,4 +1,18 @@
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+
+<!-- bootstrap.min css -->
+<link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+<!-- Icon Font Css -->
+<link rel="stylesheet" href="plugins/icofont/icofont.min.css">
+<!-- Slick Slider  CSS -->
+<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+
+<!-- Main Stylesheet -->
+<link rel="stylesheet" href="css/style.css">
 <?PHP 
+
  
 $url = "http://maps.google.com/maps/api/geocode/json?address=bangalore+india&sensor=false"; 
  
@@ -51,6 +65,7 @@ marker = new google.maps.Marker({ map:map, position: addressMarker });
 </head> 
 <body onload="initialize()"> 
 <!-- <h2>Map Example</h2>  -->
-<div length='100px' weidth='100px' id="map_canvas"></div> 
+<div length='600px' weidth='600px' id="map_canvas"></div> 
+<a class="btn btn-main btn-round-full" href="confirmation.php">Book Now<i class="icofont-simple-right ml-2"></i></a>
 </body> 
 </html> 

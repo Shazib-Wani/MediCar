@@ -8,7 +8,7 @@ body {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
-  color: #6F8BA4;
+  color: #000000;
   font-weight: 400;
 }
 
@@ -456,7 +456,7 @@ a:focus {
   position: relative;
   overflow: hidden;
   background: #fff;
-  background: url("../images/bg/slider-bg-1.jpg") no-repeat;
+  background: url("../images/slider.png") no-repeat;
   background-size: cover;
   min-height: 550px;
 }
@@ -470,7 +470,7 @@ a:focus {
   line-height: 1.2;
   letter-spacing: -1.2px;
   text-transform: capitalize;
-  color: #223a66;
+  color: #000000;
 }
 
 .letter-spacing {
@@ -554,10 +554,10 @@ a:focus {
 .appoinment-content .emergency {
   position: absolute;
   content: "";
-  right:70px;
-  bottom:-83px;
+  right:109px;
+  bottom:-102px;
   background: #223a66;
-  padding:8px;
+  padding:0px;
 }
 
 .appoinment-content .emergency h2 {

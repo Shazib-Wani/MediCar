@@ -2,10 +2,10 @@
 <html lang="zxx">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="description" content="Hackathon">
-  <meta name="author" content="wanis">
+  <meta name="description" content="Orbitor,business,company,agency,modern,bootstrap4,tech,software">
+  <meta name="author" content="themefisher.com">
 
-  <title>AmbiCAB</title>
+  <title>Novena- Health & Care Medical template</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
@@ -31,13 +31,13 @@
 			<div class="row align-items-center">
 				<div class="col-lg-6">
 					<ul class="top-bar-info list-inline-item pl-0 mb-0">
-						<li class="list-inline-item"><a href="wanishazib@gmail.com"><i class="icofont-support-faq mr-2"></i>wanishazib@gmail.com</a></li>
+						<li class="list-inline-item"><a href="mailto:support@gmail.com"><i class="icofont-support-faq mr-2"></i>wanishazib@gmail.com</a></li>
 						<li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Bengaluru,Karnataka</li>
 					</ul>
 				</div>
 				<div class="col-lg-6">
 					<div class="text-lg-right top-right-bar mt-2 mt-lg-0">
-						<a href="tel:+916005833691" >
+						<a href="tel:+23-345-67890" >
 							<span>Call Now : </span>
 							<span class="h4">+916005833691</span>
 						</a>
@@ -81,50 +81,22 @@
 	</nav>
 </header>
 	
-<section class="appoinment section">
+
+
+
+<section class="section confirmation">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-          <div class="mt-3">
-            <div class="feature-icon mb-3">
-              <i class="icofont-support text-lg"></i>
-            </div>
-             <span class="h3">Call in case of an Emergency</span>
-              <h2 class="text-color mt-3">+916005833691 </h2>
-          </div>
-      </div>
-
+    <div class="row justify-content-center">
       <div class="col-lg-8">
-           <div class="appoinment-wrap mt-5 mt-lg-0 pl-lg-5">
-            <h2 class="mb-2 title-color">Book the Ambulance</h2>
-            
-               
-
-                        
-                         <div class="col-lg-6">
-                            <div class="form-group">
-                                <input name="name" id="name" type="text" class="form-control" placeholder="Full Name">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6">
-                            <div class="form-group">
-                                <input name="phone" id="phone" type="Number" class="form-control" placeholder="Phone Number">
-                            </div>
-                        </div>
-                    </div>
-					<a class="btn btn-main btn-round-full" href="maps.php">Get Location<i class="icofont-simple-right ml-2"></i></a>
-</t>
-
-                    <a class="btn btn-main btn-round-full" href="confirmation.php">Book Now<i class="icofont-simple-right ml-2"></i></a>
-                </form>
-            </div>
-        </div>
+          <div class="confirmation-content text-center">
+            <i class="icofont-check-circled text-lg text-color-2"></i>
+              <h2 class="mt-3 mb-4">Your booking has been confirmed.</h2>
+              <p>Help is on the way.</p>
+          </div>
       </div>
     </div>
   </div>
 </section>
-
 
 <!--footer-->
 <footer id='contactus' class="footer section gray-bg">
@@ -185,7 +157,7 @@
 			<div class="row align-items-center justify-content-between">
 				<div class="col-lg-6">
 					<div class="copyright">
-						&copy; Copyright Reserved to <span class="text-color">AmbiCAR</span></a>
+						&copy; Copyright Reserved to <span class="text-color">AmbiCAB</span></a>
 					</div>
 				</div>
 				<div class="col-lg-6">
@@ -208,7 +180,7 @@
 		</div>
 	</div>
 </footer>
-
+   
 
     <!-- 
     Essential Scripts

@@ -5,7 +5,7 @@
   <meta name="description" content="Hackathon">
   <meta name="author" content="wanis">
 
-  <title>MediCab</title>
+  <title>AmbiCAB</title>
   <script src="https://kit.fontawesome.com/8c95792014.js" crossorigin="anonymous"></script>
 
   <!-- bootstrap.min css -->
@@ -57,10 +57,10 @@
 		  <div class="collapse navbar-collapse" id="navbarmain">
 			<ul class="navbar-nav ml-auto">
 			  <li class="nav-item active">
-				<a class="nav-link" href="index.html">Home</a>
+				<a class="nav-link" href="index.php">Home</a>
 			  </li>
 			   <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-			    <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+			   <li><a class="nav-link scrollto" href="#services">Services</a></li>
 
 			    <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="department.html" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Register <i class="icofont-thin-down"></i></a>
@@ -72,7 +72,7 @@
 
 			  	
 
-			    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+				  <li><a class="nav-link scrollto" href="#contactus">Contact Us</a></li>
 			</ul>
 		  </div>
 		</div>
@@ -181,7 +181,7 @@
 </section>
 
 <!--About the Ambulances-->
-<section class="section service gray-bg">
+<section id="services" class="section service gray-bg">
 	<div class="container">
 
 		<div class="row">
@@ -234,7 +234,7 @@
 		<div class="row align-items-center">
 			<div class="col-lg-6 ">
 				<div class="appoinment-content">
-					<img src="images/about/img-3.jpg" alt="" class="img-fluid">
+					<img src="images/appointment.png" alt="" class="img-fluid">
 					<div class="emergency">
 						<h2 class="text-lg"><i class="icofont-phone-circle text-lg"></i>+916005833691</h2>
 					</div>
@@ -242,54 +242,49 @@
 			</div>
 			<div class="col-lg-6 col-md-10 ">
 				<div class="appoinment-wrap mt-5 mt-lg-0">
-					<h2 class="mb-2 title-color">Book an appoinment</h2>
-					<p class="mb-4">You can now arrange an appointment at one of our partner hospitals using Ambucar without needing to visit the hospital.</p>
-					     <form class="appoinment-form" method="post" action="bk.php">
+					<h2 class="mb-2 title-color">Book appoinment</h2>
+					<p class="mb-4">Use the book appointment option to schedule a visit to your doctor beforehand to one of our partner hospitals from anywhere.</p>
+					     <form id="#" class="appoinment-form" method="post" action="#">
                     <div class="row">
                          <div class="col-lg-6">
                             <div class="form-group">
-                                <select name="hos" class="form-control" id="exampleFormControlSelect1">
-								  <option>Choose Hospital</option>
-                                  <option>Apollo</option>
-                                  <option>Sakra</option>
-                                  <option>Sri GangaRam</option>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                  <option>Choose Hospital</option>
+                                  <option>Apollo Hospital</option>
+                                  <option>Sakra Hospital</option>
+                                  <option>NIMHANS</option>
                                   <option>AIIMS</option>
                                   <option>SKIMS</option>
-                                  <option>JVC</option>
                                   <option>Khyber</option>
-                                  <option>Batra Hospital</option>
+                                  <option>Hosmat</option>
                                 </select>
                             </div>
                         </div>
-
-						<div class="row">
-                         <div class="col-lg-6">
+						<div class="col-lg-6">
                             <div class="form-group">
-                                <select name="dep" class="form-control" id="exampleFormControlSelect1">
-								  <option>Choose Department</option>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                  <option>Choose Department</option>
                                   <option>General OPD</option>
-                                  <option>Cardiology</option>
                                   <option>Radiology</option>
-                                  <option>Ortho</option>
-                                  <option>Opthomology</option>
-                                  <option>Psychiatry</option>
-								  <option>ENT</option>
-								  <option>Gynaecology</option>
+                                  <option>Cardiology</option>
+                                  <option>Opthalmology</option>
+                                  <option>Neurology</option>
+                                  <option>ENT</option>
+                                  <option>Gyneacology</option>
                                 </select>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <select name="doc" class="form-control" id="exampleFormControlSelect2">
+                                <select class="form-control" id="exampleFormControlSelect2">
                                   <option>Select Doctors</option>
-								  <option>Dr Sri Ram</option>
-                                  <option>Dr Tarif Mehraj</option>
-                                  <option>Dr Shoaib Mirza</option>
-                                  <option>Dr Kanwaljeet Singh</option>
-                                  <option>Dr Shreyas</option>
-                                  <option>Dr Padma Shree</option>
-								  <option>Dr Kaur</option>
-								  <option>Dr John</option>
+                                  <option>Dr Arnab</option>
+                                  <option>Dr Wani</option>
+                                  <option>Dr Siddharth</option>
+                                  <option>Dr Shoaib</option>
+                                  <option>Dr Kaur</option>
+                                  <option>Dr Guru Singh</option>
+                                  <option>Dr Javaid</option>
                                 </select>
                             </div>
                         </div>
@@ -321,7 +316,7 @@
                         <textarea name="message" id="message" class="form-control" rows="6" placeholder="Your Message"></textarea>
                     </div>
 
-                    <a class="btn btn-main btn-round-full" href="bk.php" >Make Appoinment <i class="icofont-simple-right ml-2  "></i></a>
+                    <a class="btn btn-main btn-round-full" href="bk.php" >Book Appoinment <i class="icofont-simple-right ml-2  "></i></a>
                 </form>
             </div>
 			</div>
@@ -401,7 +396,7 @@
 </section>
 
 <!--footer-->
-<footer class="footer section gray-bg">
+<footer id='contactus' class="footer section gray-bg">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4 mr-auto col-sm-6">
@@ -459,7 +454,7 @@
 			<div class="row align-items-center justify-content-between">
 				<div class="col-lg-6">
 					<div class="copyright">
-						&copy; Copyright Reserved to <span class="text-color">Ambucar</span></a>
+						&copy; Copyright Reserved to <span class="text-color">AmbiCAB</span></a>
 					</div>
 				</div>
 				<div class="col-lg-6">
@@ -483,3 +478,30 @@
 	</div>
 </footer>
 
+ <!-- 
+    Essential Scripts
+    =====================================-->
+
+    
+    <!-- Main jQuery -->
+    <script src="plugins/jquery/jquery.js"></script>
+    <!-- Bootstrap 4.3.2 -->
+    <script src="plugins/bootstrap/js/popper.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/counterup/jquery.easing.js"></script>
+    <!-- Slick Slider -->
+    <script src="plugins/slick-carousel/slick/slick.min.js"></script>
+    <!-- Counterup -->
+    <script src="plugins/counterup/jquery.waypoints.min.js"></script>
+    
+    <script src="plugins/shuffle/shuffle.min.js"></script>
+    <script src="plugins/counterup/jquery.counterup.min.js"></script>
+    <!-- Google Map -->
+    <script src="plugins/google-map/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
+    
+    <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
+
+  </body>
+  </html>
