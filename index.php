@@ -313,14 +313,14 @@
                             <div class="form-group">
                                 <select class="form-control" id="exampleFormControlSelect1">
 								  <option>Choose Hospital</option>
-                                  <option>Choose Department</option>
-                                  <option>Software Design</option>
-                                  <option>Development cycle</option>
-                                  <option>Software Development</option>
-                                  <option>Maintenance</option>
-                                  <option>Process Query</option>
-                                  <option>Cost and Duration</option>
-                                  <option>Modal Delivery</option>
+                                  <option>Apollo</option>
+                                  <option>Sakra</option>
+                                  <option>Sri GangaRam</option>
+                                  <option>AIIMS</option>
+                                  <option>SKIMS</option>
+                                  <option>JVC</option>
+                                  <option>Khyber</option>
+                                  <option>Batra Hospital</option>
                                 </select>
                             </div>
                         </div>
@@ -330,14 +330,14 @@
                             <div class="form-group">
                                 <select class="form-control" id="exampleFormControlSelect1">
 								  <option>Choose Department</option>
-                                  <option>Choose Department</option>
-                                  <option>Software Design</option>
-                                  <option>Development cycle</option>
-                                  <option>Software Development</option>
-                                  <option>Maintenance</option>
-                                  <option>Process Query</option>
-                                  <option>Cost and Duration</option>
-                                  <option>Modal Delivery</option>
+                                  <option>General OPD</option>
+                                  <option>Cardiology</option>
+                                  <option>Radiology</option>
+                                  <option>Ortho</option>
+                                  <option>Opthomology</option>
+                                  <option>Psychiatry</option>
+								  <option>ENT</option>
+								  <option>Gynaecology</option>
                                 </select>
                             </div>
                         </div>
@@ -345,13 +345,6 @@
                             <div class="form-group">
                                 <select class="form-control" id="exampleFormControlSelect2">
                                   <option>Select Doctors</option>
-                                  <option>Software Design</option>
-                                  <option>Development cycle</option>
-                                  <option>Software Development</option>
-                                  <option>Maintenance</option>
-                                  <option>Process Query</option>
-                                  <option>Cost and Duration</option>
-                                  <option>Modal Delivery</option>
                                 </select>
                             </div>
                         </div>
