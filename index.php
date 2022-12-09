@@ -80,7 +80,71 @@
 		</div>
 	</nav>
 </header>
-	
 
+<!-- Slider Start -->
+<section class="banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-12 col-xl-7">
+				<div class="block">
+					<div class="divider mb-3"></div>
+					<span class="text-uppercase text-sm letter-spacing ">Saving Lives on Wheels</span>
+					<h1 class="mb-3 mt-3">Here to get there on time!</h1>
+					
+					<p class="mb-4 pr-5">We are here to ensure that you get the medical attention on time and not a single minute is wasted in getting you to the nearest hospital.</p>
+					<div class="btn-container ">
+						<a href="appoinment.html" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Make appoinment <i class="icofont-simple-right ml-2  "></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="features">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="feature-block d-lg-flex">
+					<div class="feature-item mb-5 mb-lg-0">
+						<div class="feature-icon mb-4">
+							<i class="icofont-surgeon-alt"></i>
+						</div>
+						<span>24 Hours Service</span>
+						<h4 class="mb-3">Online Booking</h4>
+						<p class="mb-4">Get a Fully Equiped Ambulance from your nearest hospital in the shortest time.</p>
+						<a href="appoinment.html" class="btn btn-main btn-round-full">Book An Ambulance</a>
+					</div>
 
+					<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="feature-block d-lg-flex">
+					<div class="feature-item mb-5 mb-lg-0">
+						<div class="feature-icon mb-4">
+							<i class="icofont-surgeon-alt"></i>
+						</div>
+						<span>24 Hours Service</span>
+						<h4 class="mb-3">Online Booking</h4>
+						<p class="mb-4">Get a semi-equipped ambulance in the shortest duration possible.</p>
+						<a href="appoinment.html" class="btn btn-main btn-round-full">Book An Ambulance</a>
+					</div>
 
+					<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="feature-block d-lg-flex">
+					<div class="feature-item mb-5 mb-lg-0">
+						<div class="feature-icon mb-4">
+							<i class="icofont-surgeon-alt"></i>
+						</div>
+						<span>24 Hours Service</span>
+						<h4 class="mb-3">Online Booking</h4>
+						<p class="mb-4">Get a cab/taxi to the hospital for less severe </p>
+						<a href="appoinment.html" class="btn btn-main btn-round-full">Book An Ambulance</a>
+					</div>
+												
+                </div>
+			</div>
+		</div>
+	</div>
+</section>
