@@ -46,7 +46,7 @@
 	</div>
 	<nav class="navbar navbar-expand-lg navigation" id="navbar">
 		<div class="container">
-		 	 <a class="navbar-brand" href="index.html">
+		 	 <a class="navbar-brand" href="index.php">
 			  	<img src="images/medicab.png" alt="" class="img-fluid">
 			  </a>
 
@@ -92,7 +92,7 @@
 					
 					<p class="mb-4 pr-5">We are here to ensure that you get the medical attention on time and not a single minute is wasted in getting you to the nearest hospital.</p>
 					<div class="btn-container ">
-						<a href="appoinment.php" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Make appoinment <i class="icofont-simple-right ml-2  "></i></a>
+						<a href="appoinment.php" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Book an Ambulance <i class="icofont-simple-right ml-2  "></i></a>
 					</div>
 				</div>
 			</div>
@@ -287,7 +287,7 @@
                                   <option>Dr Javaid</option>
                                 </select>
                             </div>
-                        </div>
+                        </div>s
 
                          <div class="col-lg-6">
                             <div class="form-group">
